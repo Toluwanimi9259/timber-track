@@ -1,4 +1,4 @@
-import io.grpc.internal.SharedResourceHolder.release
+
 
 plugins {
     id("maven-publish")
@@ -49,7 +49,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.Toluwanimi9259"
             artifactId = "timber-track"
-            version = "1.0"
+            version = "1.1"
 
             afterEvaluate {
                 from(components["release"])
