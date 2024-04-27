@@ -49,7 +49,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.Toluwanimi9259"
             artifactId = "timber-track"
-            version = "1.1"
+            version = "1.2"
 
             afterEvaluate {
                 from(components["release"])
